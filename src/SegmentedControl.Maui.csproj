@@ -19,13 +19,15 @@
         <RepositoryUrl>https://github.com/bhavanesh2001/SegmentedControl.Maui</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <Copyright>© 2024 Bhavanesh Nekkalapudi</Copyright>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
+		 <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.92" />
 	</ItemGroup>
-
+	 <ItemGroup>
+      <None Include="..\README.md" Pack="true" Link="README.md" PackagePath="\" />
+    </ItemGroup>
 	<ItemGroup>
 	  <None Remove="Handlers\" />
 	  <None Remove="Platforms\Android\" />
