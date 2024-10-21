@@ -25,7 +25,7 @@ namespace SegmentedControl.Maui.Handlers
 
         private void Selection_Changed(object sender, RadioGroup.CheckedChangeEventArgs e)
         {
-            VirtualView?.SegmentSelectedCommand.Execute(null);
+            VirtualView?.SegmentSelectedCommand?.Execute(VirtualView.SegmentSelectedCommandParameter);
         }
 
         public static void MapBackgroundColor(SegmentedControlHandler handler, SegmentedControl view)
@@ -71,6 +71,8 @@ namespace SegmentedControl.Maui.Handlers
 
         public static void MapSelectedSegmentIndex(SegmentedControlHandler handler, SegmentedControl view)
         {
+            if (view.SelectedSegmentIndex < 0)
+                return;
 
             var button = handler.PlatformView.GetChildAt(view.SelectedSegmentIndex);
             if (button is global::Android.Widget.RadioButton radioButton) radioButton.Checked = true;

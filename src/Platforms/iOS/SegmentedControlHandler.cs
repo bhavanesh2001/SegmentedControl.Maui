@@ -19,7 +19,8 @@ namespace SegmentedControl.Maui.Handlers
 
         private void PlatformView_ValueChanged(object? sender, EventArgs e)
         {
-            VirtualView.SegmentSelectedCommand.Execute(VirtualView.SegmentSelectedCommandParameter);
+            VirtualView.SegmentSelectedCommand?.Execute(VirtualView.SegmentSelectedCommandParameter);
+            
         }
 
         protected override void DisconnectHandler(MauiSegmentedControl platformView)
