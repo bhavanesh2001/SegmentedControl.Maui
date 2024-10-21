@@ -18,14 +18,16 @@
         <PackageProjectUrl>https://github.com/bhavanesh2001/SegmentedControl.Maui</PackageProjectUrl>
         <RepositoryUrl>https://github.com/bhavanesh2001/SegmentedControl.Maui</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
+		<PackageTags>dotnet-maui;maui;plugin;</PackageTags>
         <Copyright>© 2024 Bhavanesh Nekkalapudi</Copyright>
 		 <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.92" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 	</ItemGroup>
 	 <ItemGroup>
+	  <None Include="nuget.png" PackagePath="icon.png" Pack="true" />
       <None Include="..\README.md" Pack="true" Link="README.md" PackagePath="\" />
     </ItemGroup>
 	<ItemGroup>
@@ -44,4 +46,5 @@
 	  <Folder Include="Platforms\Windows\" />
 	  <Folder Include="Extensions\" />
 	</ItemGroup>
+	
 </Project>
