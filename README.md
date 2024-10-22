@@ -1,7 +1,7 @@
 
 # SegmentedControl.Maui
 
-[![NuGet](https://img.shields.io/nuget/v/Plugin.Maui.Feature.svg?label=NuGet)](https://www.nuget.org/packages/SegmentedControl.Maui)
+[![NuGet](https://img.shields.io/nuget/v/SegmentedControl.Maui)](https://www.nuget.org/packages/SegmentedControl.Maui/)
 
 This plugin provides a customizable segmented control for .NET MAUI, supporting Android, iOS, and MacCatalyst platforms. It allows users to switch between different segments, useful in scenarios where multiple views or actions can be toggled.
 
