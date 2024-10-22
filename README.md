@@ -8,7 +8,7 @@ This plugin provides a customizable segmented control for .NET MAUI, supporting 
 ## Features
 
 - **Supports Android, iOS, and MacCatalyst**.
-- **Customizable segments**: Background, borders, and text styles can be customized.
+- **Customizable segments**: Background, borders, colors can be customized.
 - **Smooth segment transitions**.
 - **Native look and feel** for each platform.
 - **No support for Windows yet** (work in progress).
