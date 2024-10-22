@@ -79,7 +79,11 @@ You can add the segmented control in your XAML or C# code.
 </ContentPage>
 ```
 
-Same can be done using C# if required.
+Same can be done using C# if required
+
+## Support
+If you find this project helpful, consider supporting me by buying me a coffee!  
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/bhavanesh)
 
 ## License
 
