@@ -11,23 +11,24 @@
 
 	 <PropertyGroup>
         <PackageId>SegmentedControl.Maui</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Authors>bhavanesh2001</Authors>
         <Description>Segmetned Control for .NET MAUI apps Android | iOS | Maccatalyst</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://github.com/bhavanesh2001/SegmentedControl.Maui</PackageProjectUrl>
         <RepositoryUrl>https://github.com/bhavanesh2001/SegmentedControl.Maui</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
+		 <PackageIcon>nuget.png</PackageIcon>
 		<PackageTags>dotnet-maui;maui;plugin;</PackageTags>
         <Copyright>© 2024 SegmentedControl.Maui</Copyright>
 		 <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="[8.0.3, )" />
 	</ItemGroup>
 	 <ItemGroup>
-	  <None Include="nuget.png" PackagePath="icon.png" Pack="true" />
+	  <None Include="nuget.png"  Pack="true"  PackagePath="\" />
       <None Include="..\README.md" Pack="true" Link="README.md" PackagePath="\" />
     </ItemGroup>
 	<ItemGroup>

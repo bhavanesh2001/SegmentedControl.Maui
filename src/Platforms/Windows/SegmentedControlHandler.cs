@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Maui.Handlers;
 using SegmentedControl.Maui.Platforms.Windows;
 
 namespace SegmentedControl.Maui.Handlers
